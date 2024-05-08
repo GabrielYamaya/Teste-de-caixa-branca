@@ -21,6 +21,11 @@ Teste-de-caixa-branca
   - Apache NetBeans IDE, versão 15;
 
 # Executando os testes
+  Neste código foram localizados alguns erros, dentro deles:
+    - Falta tratativas de erros no Exception do "Try Catch";
+    - A conexão não é fechada após ela ser aberta;
+    - As construções de SQL são vulneráveis a injeções de SQL;
+    - Na condição de busca de SQL falta o símbolo "=" na procura da coluna de "login";
 
 # Autor:
   - Nome: Gabriel Queiroz Pereira Yamaya;
